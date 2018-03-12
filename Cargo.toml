@@ -3,4 +3,10 @@ name = "matt_os"
 version = "0.1.0"
 authors = ["Matthew Downs <matthew.downs@ignitionone.com>"]
 
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
 [dependencies]
